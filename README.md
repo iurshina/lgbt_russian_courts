@@ -8,6 +8,10 @@ This repository contains court data collected from Russian public judicial datab
 
 This file contains the **anonymized dataset of administrative court cases related to the public display of LGBT symbols**, primarily prosecuted under Article 20.3 of the Russian Code of Administrative Offenses (display of extremist symbols).
 
+#### `cases_6_21_anonymized.json`
+
+This file contains the **anonymized dataset of administrative court cases related to so-called “LGBT propaganda” provisions**, prosecuted under Article 6.21 of the Russian Code of Administrative Offenses.
+
 **Format**
 
 The file is a JSON array. Each element represents a single court case and includes two main components:
@@ -55,14 +59,3 @@ It demonstrates how court decisions were:
 The notebook uses **SudrfParser**, an open-source parser developed by Data Out ([https://dataout.org/](https://dataout.org/), [https://github.com/dataout-org/sudrfparser](https://github.com/dataout-org/sudrfparser)). Because the official documentation of the tool did not fully cover all practical use cases, this notebook serves as a **worked example** of how the parser can be applied in real research settings, including handling inconsistencies across court websites.
 
 The notebook is provided to support **reproducibility** and to assist other researchers working with Russian judicial data.
-
----
-
-### Planned Extensions
-
-In addition to the dataset on extremist symbol cases, this repository will include a **separate anonymized dataset of administrative cases brought under Russia’s so-called “LGBT propaganda” provisions** (primarily Article 6.21 of the Code of Administrative Offenses).
-
-That file will follow the same structure and anonymization standards as `lgbt_cases_symbols_anonymized.json`, allowing for direct comparison between:
-
-* enforcement targeting **symbols** (extremism framework), and
-* enforcement targeting **speech and information** (“propaganda” framework).
