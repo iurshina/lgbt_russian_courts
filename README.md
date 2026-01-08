@@ -59,3 +59,5 @@ It demonstrates how court decisions were:
 The notebook uses **SudrfParser**, an open-source parser developed by Data Out ([https://dataout.org/](https://dataout.org/), [https://github.com/dataout-org/sudrfparser](https://github.com/dataout-org/sudrfparser)). Because the official documentation of the tool did not fully cover all practical use cases, this notebook serves as a **worked example** of how the parser can be applied in real research settings, including handling inconsistencies across court websites.
 
 The notebook is provided to support **reproducibility** and to assist other researchers working with Russian judicial data.
+
+Note: Despite our effort to redact personal info in court cases as much as possible, there might be still some personal info present.
